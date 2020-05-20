@@ -1,0 +1,480 @@
+/* Estilos generales */
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+.contenedor{
+	max-width: 1300px;
+	width: 90%;
+	margin: auto;
+}
+
+ul{
+	list-style: none;
+}
+
+h1, h2, h3, h4, p{
+	margin: 0;
+}
+
+h1, h2, h3, h4{
+	font-family: 'Merriweather', serif;
+}
+
+.menu-icon{
+	display: none;
+	width: 40px;
+	height: 40px;
+}
+
+.boton, input[type='submit']{
+	color: white;
+	padding: 15px;
+	border-radius: 30px;
+	color: white;
+	background: #15c39a;
+	display: inline-block;
+	letter-spacing: 2px;
+	font-size: 14px;
+	-webkit-box-shadow: 0px 0px 46px 0px rgba(21,195,154,.7);
+	-moz-box-shadow: 0px 0px 46px 0px rgba(21,195,154,.7);
+	box-shadow: 0px 0px 46px 0px rgba(21,195,154,.7);
+	border: none;
+}
+
+input[type='email']{
+	padding: 15px 0 15px 20px;
+	font-size: 17px;
+	border-radius: 5px;
+	width: 65%;
+	margin: auto;
+	border: none;
+	outline: none;
+	background: #EDEDED;
+}
+
+input[type='submit']{
+	width: 67%;
+	margin-top: 20px;
+}
+
+/* Estilos para el header */
+
+header .menu-principal{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header .logo{
+	font-size: 23px;
+	font-weight: 600;
+	color: #343434;
+	font-weight: 600;
+	letter-spacing: 5px;
+}
+
+header nav ul{
+	display: flex;
+}
+
+header nav ul li{
+	margin: 0px 20px;
+}
+
+#titulos{
+	background: linear-gradient(180deg,rgba(255,255,255,0.4) 
+		0%,#ffffff 90%),
+	 url(../img/nutriologo-fondo-header.jpg) 50% 50%;
+	 background-size: cover;
+	text-align: center;
+	color: #333;
+	padding: 150px 0;
+}
+
+#titulos h1{
+	font-size: 80px;
+	letter-spacing: 5px;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+
+#titulos h2{
+	font-size: 18px;
+	font-weight: 500;
+	letter-spacing: 5px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#titulos .boton{
+	margin-top: 40px;
+}
+
+/* Estilos para la onda de división de conoceme */
+
+#division{
+	background: url(../img/onda.svg);
+	background-color: #EDEDED;
+	transform: rotate(180deg);
+	background-size: 100% 6vw;
+    top: 0;
+    height: 6vw;
+}
+
+/* Estilos para la sección conoce */
+
+#conoceme{
+	background: #EDEDED;
+	color: #333;
+	/*padding: 40px 0;*/
+}
+
+#conoceme .conoceme{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 50px;
+}
+
+#conoceme .izquierda{
+	width: 50%;
+}
+
+#conoceme .derecha{
+	width: 40%;
+}
+
+#conoceme .derecha img{
+	width: 100%;
+}
+
+#conoceme h2{
+	font-size: 35px;
+	width: 80%;
+	font-weight: 600;
+	margin-bottom: 20px;
+	line-height: 60px;
+	letter-spacing: 1px;
+}
+
+#conoceme p{
+	opacity: .8;
+	font-size: 15px;
+	margin-bottom: 40px;
+	width: 80%;
+	line-height: 30px;
+}
+
+#conoceme .caracteristicas{
+	display: flex;
+	text-align: center;
+	justify-content: space-around;
+	margin-top: 60px;
+	position: relative;
+	top: 20px;
+	z-index: 9999;
+	
+}
+
+#conoceme .item-caracteristica{
+	width: 30%;
+	background: white;
+	border-radius: 10px;
+	-webkit-box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.1);
+	-moz-box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.1);
+	box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.1);
+
+}
+
+#conoceme .caracteristicas h3{
+	margin-top: 40px;
+	color: #404040;
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+
+#conoceme .caracteristicas p{
+	width: 85%;
+	margin: auto;
+	font-size: 13px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+}
+
+#conoceme .item-caracteristica.background-none{
+	background: none;
+}
+
+#conoceme .caracteristicas ul{
+	text-align: left;
+	line-height: 60px;
+	font-size: 12px;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+
+#conoceme .caracteristicas img{
+	width: 32px;
+	height: 32px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+
+/* Estilos para la sección de balance (nwsletter) */
+
+#newsletter-form{
+	background:linear-gradient(180deg,#34545a 0%,
+		rgba(52,84,90,0.8)), url(../img/fresas.jpg) 50%;
+	background-size: cover;
+	padding: 100px 0;
+	text-align: center;
+	color: white;
+	
+}
+
+#newsletter-form h2, #newsletter-form h3{
+	margin-bottom: 20px;
+}
+
+#newsletter-form h2{
+	font-size: 30px;
+	letter-spacing: 1px;
+}
+
+#newsletter-form h3{
+	color: #15c39a;
+}
+
+#newsletter-form p{
+	width: 63%;
+	margin: auto;
+	font-size: 14px;
+	line-height: 30px;
+}
+
+form{
+
+	background: url(../img/form-fondo.png) 50% 50%;
+	background-size: cover;
+	width: 65%;
+	margin: auto;
+	margin-top: 40px;
+	background-color: white;
+	border-radius: 10px;
+	padding: 55px 0;
+	
+}
+
+#newsletter-form h4{
+	color: #333;
+	width: 70%;
+	margin: auto;
+	margin-bottom: 40px;
+	font-size: 25px;
+	line-height: 40px;
+	margin-top: 40px;
+}
+
+/* Estilos para la sección de testimonios */
+
+#fondo-testimonios{
+	background: url(../img/nutriologo-dibujo2.png);
+	background-size: cover;
+	height: 225px;
+}
+
+#testimonios .testimonios{
+	display: flex;
+	width: 90%;
+	margin: auto;
+	margin-top: -40px;
+}
+
+#testimonios .testimonio-foto{
+	width: 40%;
+	margin-right: 20px;
+}
+
+#testimonios img{
+	width: 100%;
+	border-radius: 50%;
+
+}
+
+#testimonios .testimonio-singular p{
+	width: 95%;
+	margin: auto;
+	line-height: 30px;
+	color: gray;
+	font-size: 14px;
+}
+
+.testimonio-foto.derecha{
+	margin-left: 40px;
+}
+
+p.testimonio-nombre{
+	margin-top: 20px !important;
+	font-weight: bold;
+}
+
+/* Estilos para la sección preguntas frecuentes */
+
+#preguntas-frecuentes{
+	text-align: center;
+	margin-top: 90px;
+}
+
+#preguntas-frecuentes img{
+	width: 70%;
+}
+
+#preguntas-frecuentes h2{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 30px;
+	letter-spacing: 2px;
+	color: #333;
+} 
+
+#preguntas-frecuentes h3{
+	color: orange;
+	letter-spacing: 2px;
+}
+
+#preguntas-frecuentes .preguntas{
+	text-align: left;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 60px;
+}
+
+#preguntas-frecuentes .pregunta-singular{
+	width: 45%;
+}
+
+details{
+	background: white;
+	margin-bottom: 30px;
+	padding: 25px;
+	-webkit-box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.2);
+}
+
+summary{
+	font-size: 12px;
+	letter-spacing: 1px;
+	font-weight: 600;
+	color: #333;
+	cursor: pointer;
+	outline: none;
+}
+
+.preguntas .pregunta-singular p{
+	color: gray;
+	margin-top: 20px;
+	font-size: 14px;
+	line-height: 25px;
+}
+
+/* Estilos para la sección datos-contacto */
+
+
+#datos-contacto .datos-titulos{
+	background: url(../img/comida2-fondo.png) 30%,
+	radial-gradient(circle 
+		at center,#f9f9f4 80%,#ffffff 100%);
+	background-color:  #EDEDED;
+	background-size: contain;
+	text-align: center;
+	margin-top: 90px;
+	padding: 100px 0;
+	background-repeat: no-repeat;
+}
+
+#datos-contacto h2{
+	color: #333;
+	letter-spacing: 1px;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+#datos-contacto p{
+	width: 50%;
+	margin: auto;
+	color: gray;
+	line-height: 30px;
+	font-size: 15px;
+}
+
+#datos-contacto .datos-contacto{
+	display: flex;
+	text-align: left;
+	width: 60%;
+	margin: auto;
+	padding: 0 0 0 60px;
+	margin-top: 60px;
+	justify-content: space-around;
+
+}
+
+#datos-contacto ul{
+	padding: 0;
+}
+
+#datos-contacto h3{
+	font-size: 12px;
+	color: #333;
+	letter-spacing: 2px;
+}
+
+#datos-contacto .dato-texto li{
+	font-size: 12px;
+}
+
+.far, .fas{
+	/*background: red;
+	width: 32px;
+	height: 32px;*/
+	vertical-align: top;
+	/*border-radius: 50%;*/
+}
+
+.fa-envelope{
+	color: orange;
+}
+
+.fa-phone-alt{
+	color: #cc6b59;
+}
+
+.fa-map-marker-alt{
+	color: #15c39a;
+}
+
+#datos-contacto .boton{
+	margin-top: 60px;
+	padding: 15px 30px;
+}
+
+footer{
+	background: #151515;
+	padding: 20px 0;
+}
+
+footer p{
+	color: gray;
+	text-align: center;
+}
+
+
+
+
+
+
+
